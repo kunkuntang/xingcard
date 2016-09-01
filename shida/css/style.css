@@ -1,0 +1,162 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{
+		margin:0;
+		padding:0;
+		font-family: "微软雅黑";
+	}
+li{
+	list-style: none;
+}
+
+#box{
+	position: relative;
+	 width: 100%;
+	 height: 980px;
+}
+
+#sidebar{
+	width: 200px;
+	height:100%;
+	background-color: #2d3f51;
+	position: relative;
+	left: -200px; 
+	z-index: 999;
+}
+
+#sidebar ul{
+	position: absolute;
+	top: 75px;
+	width: 100%;
+}
+#sidebar .section{
+	width: 100%;
+	color: #fff;
+	font-size: 24px;
+	line-height: 59px;
+	text-align: center;
+}
+#sidebar .section li{
+	border-bottom: 1px solid #35495f;
+}
+#sidebar .section li:hover{
+	background-color: #35495f;
+}
+#box .container{
+	position: relative;
+	width: 100%;
+    height:100%;
+	left: 0;
+	top: -980px;
+}
+#box .header{
+	position: absolute;
+	width: 100%;
+	height: 110px;
+	background-color:#03afe8;
+}
+#box .header #button{
+	width: 60px;
+	height: 40px;
+	position: absolute;
+	left: 10px;
+	top:20px;
+	font-size: 2em;
+	color: #fff;
+}
+#box .header #back{
+	width: 60px;
+	height: 40px;
+	position: absolute;
+	right: 0px;
+	top:23px;
+	font-size: 2em;
+	color: #fff;
+
+}
+#box .header .title{
+	position: relative;
+    left: 80px;
+    top: 28px;
+    font-size: 1.5em;
+    color: #fff;
+}
+#box .header ul{
+	width: 100%;
+	height: 50px;
+	top: 60px;
+    position: absolute;	
+    text-align: center;
+}
+
+#box .header ul li{
+	float: left;
+	width: 22%;
+	height: 100%;
+	font-size: 24px;
+	line-height: 60px;
+}
+#box .header ul .li1{
+	padding-left: 1%;
+}
+#box .header ul .li2{
+	width: 54%;
+	position: relative;
+    cursor: pointer;
+}
+
+#box .header ul .li3{
+	padding-right: 1%;
+}
+#box .header ul li span{
+	font-size: 0.8em;
+	color: #fff;
+	
+}
+#box .container .telephone{
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	top: 110px;
+}
+#box .container .telephone ul{
+	top: 0;
+    width: 100%;
+    height: 48px;
+    text-align: center;
+    border-bottom: 2px solid #03afe8;
+    font-size: 1.2em;
+    line-height: 50px;
+}
+#box .container .telephone ul li{
+	width: 25%;
+	height: 50px;
+	float: left;
+	color: #03afe8;
+}
+#box .container .telephone ul li a{
+	text-decoration: none;
+	color: #03afe8;
+}
+
+#box .container .telephone ul .longTel{
+	width: 50%;
+}
+#box .container .telephone .ul2{
+	top:70px;
+}
+#box .container .foot{
+	position: absolute;
+	width: 100%;
+	font-size: 1.2em;
+	text-align: center;
+	color: #03afe8;
+	bottom: 1%;
+}
+
+#telephone1{
+	visibility: visible;
+}
+#telephone2,#telephone3,#telephone4,#telephone5,#telephone6,
+#telephone7,#telephone8,#telephone9,#telephone10,#telephone11,
+#telephone12,#telephone13,#telephone14,#telephone15{
+	visibility: hidden;
+}

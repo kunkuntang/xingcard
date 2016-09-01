@@ -1,0 +1,49 @@
+
+a{
+    text-decoration: none;
+}
+@-moz-document url-prefix() {
+    fieldset { display: table-cell; }
+}
+.header-name{
+    margin-top:30px; 
+}
+.people{
+    width: 140px;
+    height: 140px;
+}
+.people img{
+    width: 130px;
+    height: 130px ;
+}
+.aside{
+    border-right: 1px solid #eeeeee;
+}
+.aside,
+.table{
+    text-align: center;
+}
+
+#apartment>li{
+    display: block;
+    position: relative;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+#apartment>li>span{
+    margin: 0 8px;
+    cursor: pointer;
+}
+#apartment>li>a{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+#nav{
+    margin: 0 auto;
+}
+#addMemberList, #delMemberList{
+    margin: 20px 0; 
+}
